@@ -1,0 +1,10 @@
+ERROR: 2022/02/15 21:57:48 main.go:315: Task already exists
+INFO: 2022/02/15 22:11:55 main.go:170: Login sucessful for user ID: 0 (user)
+INFO: 2022/02/15 22:12:07 main.go:331: Task creation sucessful (task ID 1) for user ID 0
+INFO: 2022/02/15 22:12:17 main.go:203: Logout sucessful.
+ERROR: 2022/02/15 22:12:22 main.go:174: Username and/or password is incorrect.
+INFO: 2022/02/15 22:12:40 main.go:255: User creation sucessful for user ID: 3 (robin)
+INFO: 2022/02/15 22:12:44 main.go:170: Login sucessful for user ID: 3 (robin)
+INFO: 2022/02/15 22:12:59 main.go:331: Task creation sucessful (task ID 2) for user ID 3
+INFO: 2022/02/15 22:13:06 main.go:203: Logout sucessful.
+INFO: 2022/02/16 21:25:26 main.go:169: Login sucessful for user ID: 0 (user)

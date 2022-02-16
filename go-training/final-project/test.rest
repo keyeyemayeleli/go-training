@@ -1,0 +1,32 @@
+## Test 1
+
+# GET http://localhost:8080/tasks?userid=0
+
+
+# GET http://localhost:8080/users
+
+# POST http://localhost:8080/login
+
+# {
+# 	"username":    "user",
+# 	"password":    "pass"
+# }
+
+## Test 2
+# POST http://localhost:8080/tasks?userid=0
+
+# {
+# 	"Name":    "test",
+# 	"Priority": "test",
+#     "Status":    "done"
+# }
+
+
+# POST http://localhost:8080/signup
+
+# {
+# 	"username":    "user3",
+# 	"password":    "pass"
+# }
+
+
