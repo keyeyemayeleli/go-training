@@ -16,14 +16,14 @@ var activeSession bool = false
 
 // Initializing class for a user account
 type User struct {
-	ID       int    `json:"userID"`
+	ID       int    `json:"id"`
 	Username string `json:"username"`
 	Password string `json:"password"`
 }
 
 // Initializing class for a user's task
 type Task struct {
-	ID       int    `json:"taskID"`
+	ID       int    `json:"id"`
 	UserID   int    `json:"userID"`
 	Name     string `json:"name"`
 	Priority string `json:"priority"`
@@ -86,7 +86,7 @@ func updateDatabase(db *Database) {
 		ErrorLogger.Println(err.Error())
 		return
 	}
-	if err := ioutil.WriteFile("data/data.json", jsonString, os.ModePerm); err != nil {
+	if err := ioutil.WriteFile("data.json", jsonString, os.ModePerm); err != nil {
 		ErrorLogger.Println(err.Error())
 		return
 	}
@@ -95,7 +95,7 @@ func updateDatabase(db *Database) {
 }
 
 func main() {
-	db := initializeDB("data/data.json")
+	db := initializeDB("data.json")
 	// db := &Database{Recs_user: []User{}, Recs_task: []Task{}}
 	if err := http.ListenAndServe(":8080", db.handler()); err != nil {
 		log.Fatalf("Error ListenAndServe(): %s", err.Error())

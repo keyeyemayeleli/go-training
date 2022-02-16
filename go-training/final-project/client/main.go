@@ -248,6 +248,7 @@ func viewTasks(userid int) []Task {
 	if err := json.NewDecoder(res.Body).Decode(&task_rec); err != nil {
 		log.Fatal(err)
 	}
+
 	return task_rec
 }
 

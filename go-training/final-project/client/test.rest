@@ -1,11 +1,11 @@
 ## Test 1
 
-# GET http://localhost:8080/tasks?userid=0
+GET http://localhost:8080/tasks?userid=0
 
 
 # GET http://localhost:8080/users
 
-# POST http://localhost:8080/login
+# POST http://localhost:8080/logout
 
 # {
 # 	"username":    "user",
