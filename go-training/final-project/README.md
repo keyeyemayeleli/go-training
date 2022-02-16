@@ -2,13 +2,6 @@
 
 A simple app written in Go that can manage your to-do list!
 
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
 
 ## Usage
 The following operations can be done through the CLI:
