@@ -1,0 +1,64 @@
+## Test 1
+
+# GET http://localhost:8081/contacts
+
+# # Test 2
+# POST http://localhost:8081/contacts
+
+# {
+# 	"Last":     "Ramos",
+# 	"First":    "Robin",
+# 	"Company":  "Cobena",
+# 	"Address":  "Meycauayan",
+# 	"Country":  "Philippines",
+# 	"Position": "Analyst"
+# }
+
+# POST http://localhost:8081/contacts
+
+# # Test 3
+# POST http://localhost:8081/contacts
+
+# {
+# 	"Last":     "Ramos",
+# 	"First":    "Robin Kamille",
+# 	"Company":  "Cobena",
+# 	"Address":  "Meycauayan",
+# 	"Country":  "Philippines",
+# 	"Position": "Analyst"
+# }
+
+# GET http://localhost:8081/contacts
+
+# Test 4
+# POST http://localhost:8081/contacts
+
+# {
+# 	"Last":     "Ramos",
+# 	"First":    "Kamille",
+# 	"Company":  "Demand Science",
+# 	"Address":  "Pasig",
+# 	"Country":  "Philippines",
+# 	"Position": "Data Scientist"
+# }
+
+# GET http://localhost:8081/contacts
+
+# Test 5
+# DELETE http://localhost:8081/contacts/1
+# GET http://localhost:8081/contacts
+
+# Test 6
+# GET http://localhost:8081/contacts/0
+# PUT http://localhost:8081/contacts/0
+
+# {
+# 	"Last":     "Ramos",
+# 	"First":    "Kamille",
+# 	"Company":  "Demand Science",
+# 	"Address":  "Pasig",
+# 	"Country":  "Philippines",
+# 	"Position": "Data Scientist"
+# }
+
+# GET http://localhost:8081/contacts/0
